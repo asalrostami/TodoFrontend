@@ -8,7 +8,12 @@
 
 import UIKit
 
-class LoginViewController: UIViewController {
+class LoginViewController: UIViewController,registerationProtocol {
+    
+    @IBAction func btnRegistration(_ sender: UIButton) {
+        performSegue(withIdentifier: "register", sender: nil)
+    }
+    
     
     @IBOutlet weak var txtFieldUserName: UITextField!
     @IBOutlet weak var txtFieldPassword: UITextField!
@@ -39,6 +44,13 @@ class LoginViewController: UIViewController {
         }
     }
     
+     func register(username : String,password:String)
+     {
+        txtFieldUserName.text = username
+        txtFieldPassword.text = password
+     }
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
@@ -48,6 +60,12 @@ class LoginViewController: UIViewController {
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
+    }
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        if let destnation = segue.destination as? RegistrationViewController
+        {
+            destnation.delegate = self
+        }
     }
     
     /*

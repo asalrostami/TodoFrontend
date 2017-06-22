@@ -22,6 +22,8 @@
 		3DB2E7AB1CFFB0680077176C /* TodoModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DB2E7A71CFFB0680077176C /* TodoModel.swift */; };
 		3DB2E7AC1CFFB0680077176C /* WebServiceManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DB2E7A81CFFB0680077176C /* WebServiceManager.swift */; };
 		C7866F4B2B524272EAC75E9A /* Pods_TodoApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C349DE99270EFEB0BC887906 /* Pods_TodoApp.framework */; };
+		C7B86AFB1EFC0DC400371635 /* RegistrationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7B86AFA1EFC0DC400371635 /* RegistrationViewController.swift */; };
+		C7B86B031EFC27B600371635 /* RegisterManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7B86B021EFC27B600371635 /* RegisterManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -46,6 +48,8 @@
 		3DB2E7A81CFFB0680077176C /* WebServiceManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebServiceManager.swift; sourceTree = "<group>"; };
 		5B4D37F7278CCAB4D9037E21 /* Pods-2016-06-01-codelab-frontend.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-2016-06-01-codelab-frontend.release.xcconfig"; path = "Pods/Target Support Files/Pods-2016-06-01-codelab-frontend/Pods-2016-06-01-codelab-frontend.release.xcconfig"; sourceTree = "<group>"; };
 		C349DE99270EFEB0BC887906 /* Pods_TodoApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TodoApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C7B86AFA1EFC0DC400371635 /* RegistrationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = RegistrationViewController.swift; path = Managers/RegistrationViewController.swift; sourceTree = "<group>"; };
+		C7B86B021EFC27B600371635 /* RegisterManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegisterManager.swift; sourceTree = "<group>"; };
 		F652E0E510357529DD1D21F6 /* Pods-2016-06-01-codelab-frontend.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-2016-06-01-codelab-frontend.debug.xcconfig"; path = "Pods/Target Support Files/Pods-2016-06-01-codelab-frontend/Pods-2016-06-01-codelab-frontend.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -92,6 +96,7 @@
 				3DB2E7A21CFFAE490077176C /* TodoDetailViewController.swift */,
 				3DB2E7A01CFFA6580077176C /* TodosTableViewController.swift */,
 				3D318AA61CFE6CB4008BAAE2 /* ViewController.swift */,
+				C7B86AFA1EFC0DC400371635 /* RegistrationViewController.swift */,
 				3D0301DD1EF40B5F00AABB74 /* LoginViewController.swift */,
 			);
 			path = TodoApp;
@@ -114,6 +119,7 @@
 				3DB2E7A71CFFB0680077176C /* TodoModel.swift */,
 				3DB2E7A81CFFB0680077176C /* WebServiceManager.swift */,
 				3D03038B1EF44A1700AABB74 /* LoginManager.swift */,
+				C7B86B021EFC27B600371635 /* RegisterManager.swift */,
 			);
 			path = Managers;
 			sourceTree = "<group>";
@@ -256,10 +262,12 @@
 				3D0301DE1EF40B5F00AABB74 /* LoginViewController.swift in Sources */,
 				3D318AA71CFE6CB4008BAAE2 /* ViewController.swift in Sources */,
 				3DB2E7AA1CFFB0680077176C /* TodoManager.swift in Sources */,
+				C7B86AFB1EFC0DC400371635 /* RegistrationViewController.swift in Sources */,
 				3DB2E7A31CFFAE490077176C /* TodoDetailViewController.swift in Sources */,
 				3DB2E7A91CFFB0680077176C /* DatabaseManager.swift in Sources */,
 				3D03038C1EF44A1700AABB74 /* LoginManager.swift in Sources */,
 				3DB2E7AC1CFFB0680077176C /* WebServiceManager.swift in Sources */,
+				C7B86B031EFC27B600371635 /* RegisterManager.swift in Sources */,
 				3D318AA51CFE6CB4008BAAE2 /* AppDelegate.swift in Sources */,
 				3DB2E7AB1CFFB0680077176C /* TodoModel.swift in Sources */,
 				3DB2E7A11CFFA6580077176C /* TodosTableViewController.swift in Sources */,
